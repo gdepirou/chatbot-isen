@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+    <link rel="icon" type="images/png"  href="{{ url_for('static', filename='images/ahri.png') }}" />
+</head>
+<body>
+<header class="header">
+    <a href="https://isen-brest.fr/">
+    <img src="{{ url_for('static', filename='images/ISEN-blanc.png') }}"  alt="logo ISEN" class="image_isen_blanc"/>
+    </a>
+    
+</header>
+<div class="lien">
+    <a href="https://github.com/gdepirou/chatbot-isen">
+    <img src="{{ url_for('static', filename='images/GitHub-Logo.png') }}"  alt="logo GitHub" class="image_github"/>
+    </a>
+    <a href="{{ url_for('static', filename='pdf/515_709_depirou_depontieu.pdf') }}">
+        <button class="download__button">Télécharger notre rapport</button>
+    </a>
+</div>
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <!-- <img src="https://icons8.com/icon/113092/ahri" alt="image"> -->
+                    <img src="{{ url_for('static', filename='images/ahri.png') }}"/>
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Chat support</h4>
+                    
+                    <p class="chatbox__description--header">Salut, je m'appelle Emi, je suis là pour répondre à vos questions!</p>
+                </div>
+                <div class="chatbox__image2--header">
+                    <button class="refresh__button--header refresh__button"><img src="{{ url_for('static', filename='images/refresh.png') }}" alt="logo rafraichissement du chatbot" class="refresh__button"/></button>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                
+                <div></div>
+                
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Envoyer</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button class="chatbox_button"><img src="{{ url_for('static', filename='images/messager_blanc.png') }}"  alt="logo message ouverture chat" class="chat_button_img"/></button>
+        </div>
+    </div>
+</div>
+
+<!-- <script>
+    $SCRIPT_ROOT = {{ request.script_root|tojson }};
+</script> -->
+<script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
