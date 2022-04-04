@@ -1,0 +1,147 @@
+{
+	"intents": [{
+			"tag": "bienvenue",
+			"patterns": ["Salut", "Salut à tous", "à tous", "Bonjour", "Coucou", "Comment ca-va?", "je recherche de l'aide","oyez oyez","hey"],
+			"responses": ["Bonjour, comment puis-je vous aider?"],
+			"context": [""]
+		},
+		{
+			"tag": "raison_isen",
+			"patterns": ["Pourquoi l’isen ?", "C’est quoi la différence avec les autres écoles d’ingénieurs ?", "Quelle est la différence avec les autres écoles d’ingénieurs ?","différence autres écoles ingénieurs","en quoi l'isen est meilleur?","Pourquoi choisir l'isen?","quelles sont les avantages offert par l'isen?","qu'offre l'isen en termes d'enseignement?","quelles performances peut-on retrouvés à l'isen"],
+			"responses": ["La maîtrise de ces compétences est au cœur de la formation ISEN. Elle permet une approche métier transdisciplinaire dans des domaines d’application aussi variés que les technologies pour la santé, l’environnement, les transports, l’aéronautique… ou une approche par spécialité (cyber sécurité, production d’énergie, cloud computing, robotique, objets connectés, big data…)."],
+			"context": [""]
+		},
+		{
+			"tag": "cursus_isen",
+			"patterns": ["C’est quoi l’ISEN ?", "En combien d’années se déroule l’ISEN ?", "Qu’est ce que l’ISEN", "C’est quoi le cursus de l’école","Combien d'années d'études post bac?","peut-on intégrer l'école après le bac","comment foncionne l'ISEN","comment est-on formé à l'isen?","quelles sont les différentes possibilités suivant mon profil?","quelles sont les enseignements à l'isen?"],
+			"responses": ["Vous construisez votre parcours sur 5 ans. Après le baccalauréat, vous optez pour un cycle de formation en 3 ans centré sur les sciences et le numérique. En fonction de votre profil, cinq cursus différents sont proposés. Pendant ces trois premières années, vous réfléchissez à votre projet professionnel et vous pouvez changer de cursus. Ensuite, vous accédez sans critère de classement aux 40 domaines professionnels proposés par l’ISEN et les autres écoles d’ingénieurs d’Yncréa (HEI, ISA) . C’est le temps de la spécialisation."],
+			"context": [""]
+		},
+		{
+			"tag": "campus_ouest",
+			"patterns": ["C’est quoi Yncréa Ouest ?", "Combien y a t’il d’écoles dans l’ouest?", "Quels sont les campus de l’ISEN Ouest ?","Brest, Caen, Nantes et Rennes","Où peut-on étudier à l'ISEN?","quelles sont les centre de formation de l'isen?","quelle est la localisation de l'ISEN?"],
+			"responses": ["Yncréa Ouest est composé de 4 campus : Brest, Caen, Nantes et Rennes. Les campus de Brest, Caen et Nantes forment de Bac +1 à Bac +5. Rennes présente actuellement une formation pour les Cycle Informatique et Réseaux (CIR) les deux premières années après le Bac"],
+			"context": [""]
+		},
+		{
+			"tag": "certifications",
+			"patterns": ["Quelles sont les certifications d’Yncréa ?", "L’isen est-il sous contrat avec le Ministère de l’Enseignement Supérieur et de la Recherche ?", "L’isen est-il sous contrat avec le MESR ?","gage de qualité de l'isen","MESR","L'isen est-il reconnu de quelconques manières?","Qu'offre l'ISEN en terme d'assurrance de reconnaissance du niveau de sortie?"],
+			"responses": ["L’établissement est sous contrat avec le Ministère de l’Enseignement Supérieur et de la Recherche, il est membre de la Conférence des Grandes Écoles. Il est également labellisé au niveau européen par Erasmus+. De plus, Yncréa Ouest est reconnu par le Ministère de l’Enseignement Supérieur et de la Recherche comme un Etablissement d’Enseignement Supérieur Privé d’Intérêt Général. Il est habilité par la Commission des Titres d’Ingénieur à délivrer le titre d’ingénieur de l’ISEN Yncréa Ouest"],
+			"context": [""]
+		},
+		{
+			"tag": "Taux_insertion",
+			"patterns": ["Quel est le taux d’insertion des jeunes diplômés ?","taux d’insertion","Où sont embauchés les jeunes diplômés ?","lieu d'embauche","Quels sont les lieux de travail après diplôme ?","Trouve-t-on facilement du diplôme après l'isen?","Est-on obligé de travailler sur paris après notre diplome?","Quelle est le taux d'embauches après l'ISEN?"],
+			"responses": ["Résultats de l’enquête de la CGE (Conférence des Grandes Écoles) sur l’insertion des jeunes diplômés de la promotion ISEN  Yncréa Ouest de l’an passé, 5 mois après leur sortie. Ainsi, le taux d’insertion (5 mois après leur sortie) est de 98%. De plus, 88% des jeunes diplômés sont embauchés en région (hors île-de-France)."],
+			"context": [""]
+		},
+		{
+			"tag": "Yncrea",
+			"patterns": ["C’est quoi Yncrea ?", "Qu’est ce que Yncréa ?","Yncrea","Junia","Yncrea ouest", "Yncrea medittérannée", "Yncrea Nord","L'isen fait elle est partie d'un groupe?","Pourquoi Yncrea?","Quelle différences entre l'isen et l'Yncrea?"],
+			"responses": ["Yncréa est le premier pôle privé associatif d’écoles d’ingénieur de France. Cet ensemble regroupe les marques HEI, ISA et ISEN. Ces écoles forment dans 40 domaines professionnels plus de 7 000 élèves ingénieurs en France et à l’étranger au cours de cette année universitaire. Implantés sur les villes de Brest, Caen, Lille, Marseille, Nantes, Rennes et Toulon les établissements ISEN sont membres d’Yncréa. Dans l’ouest de la France, l’ensemble de ces marques est porté par Yncréa Ouest."],
+			"context": [""]
+		},
+		{
+			"tag": "Nombre_etudiants_alumni_etudiants",
+			"patterns": ["Combien y a t’il d’étudiants ?", "Combien y a t’il d’enseignants permanents?", "Combien y a t’il d’alumnis ?","nombre étudiants", "nombre élèves","Quelles est le chiffre d'étudiants à l'isen?","Quelle est la populatiion de l'isen?"],
+			"responses": ["Yncréa ouest est actuellement composé de 4 campus, 1250 étudiants, 100 enseignants permanents et 10 000 alumni"],
+			"context": [""]
+		},
+		{
+			"tag": "tarif_CGSI",
+			"patterns": ["Quels sont les tarifs du cycle CGSI ?","prix CGSI", "Quels sont les frais de scolarité du cycle CGSI ?", "Combien coûte les années 1 et 2 en CSI ?", "Combien coûte les années 1 et 2 classes préparatoires implantées","tarif CGSI","tarif CSI","Quelle est le montant d'une année du cycle généraliste?","une année du cycle généraliste, ça coute combien?"],
+			"responses": ["Les deux premières années du CGSI sont des classes préparatoires implantées. Sur le campus de Brest, les frais de scolarité sont de 3900 €/an"],
+			"context": [""]
+		},
+		{
+			"tag": "tarif_CIR",
+			"patterns": ["Quels sont les tarifs du cycle CIR?","tarif CIR","prix CIR", "Quels sont les frais de scolarité du cycle CIR?", "Combien coûte les années 1 et 2 en CIR?", "Combien coûte les années 1 et 2 en Cycle Informatique et Réseaux","Quelle est le montant d'une année du cycle informatique?","une année du cycle informatique, ça coute combien?"],
+			"responses": ["Les deux premières années du Cycle Informatique et Réseaux sont des classes préparatoires intégrées. Les frais de scolarité sont de 6600 €/an"],
+			"context": [""]
+		},
+		{
+			"tag": "tarif_BIOST",
+			"patterns": ["Quels sont les tarifs du cycle BIOST?","tarif BIOST","prix BIOST", "Quels sont les frais de scolarité du cycle BIOST?", "Combien coûte les années 1 et 2 en BIOST?", "Combien coûte les années 1 et 2 en Cycle Biologie, Sciences et Technologies","Quelle est le montant d'une année du cycle biologique?","une année du cycle biologique, ça coute combien?"],
+			"responses": ["Les deux premières années du Cycle Biologie, Sciences et Technologies sont des classes préparatoires intégrées.Les frais de scolarité sont de 6600 €/an"],
+			"context": [""]
+		},
+		{
+			"tag": "tarif_CENT",
+			"patterns": ["Quels sont les tarifs du cycle CENT ?","tarif CENT","Prix CENT", "Quels sont les frais de scolarité du cycle CENT ?", "Combien coûte les années 1 et 2 en CENT ?", "Combien coûte les années 1 et 2 en Cycle Economie Numérique et Technologies","Quelle est le montant d'une année du cycle economie?","une année du cycle economie, ça coute combien?"],
+			"responses": ["Les deux premières années du Cycle Économie Numérique et Technologies sont des classes préparatoires intégrées. Les frais de scolarité sont de 6600 €/an"],
+			"context": [""]
+		},
+		{
+			"tag": "tarif_EST",
+			"patterns": ["Quels sont les tarifs du cycle EST?","tarif EST","prix EST", "Quels sont les frais de scolarité du cycle EST?", "Combien coûte les années 1 et 2 en EST?", "Combien coûte les années 1 et 2 en Cycle Environnement, Sciences et Technologies","Quelle est le montant d'une année du cycle environnement?","une année du cycle environnement, ça coute combien?"],
+			"responses": ["Les deux premières années du Cycle Environnement, Sciences et Technologies sont des classes préparatoires intégrées. Les frais de scolarité sont de 6600 €/an"],
+			"context": [""]
+		},
+		{
+			"tag": "tarif_BIAST",
+			"patterns": ["Quels sont les tarifs du cycle BIAST?","Tarif BIAST","prix BIAST", "Quels sont les frais de scolarité du cycle BIAST?", "Combien coûte les années 1 et 2 en BIAST?", "Combien coûte les années 1 et 2 en Cycle Biologie, Agronomie, Sciences et Technologies","Quelle est le montant d'une année du cycle agronomie?","une année du cycle agronomie, ça coute combien?"],
+			"responses": ["Les deux premières années du Cycle Biologie, Agronomie, Sciences et Technologies sont des classes préparatoires intégrées. Les frais de scolarité sont de 6600 €/an"],
+			"context": [""]
+		},
+		{
+			"tag": "tarif_cycle_ingenieur",
+			"patterns": ["Quels sont les tarifs du cycle ingénieur?","Quel est le prix à BAC+3","Quel est le tarif du cycle ingénieur?", "prix des années 3, 4 et 5", "prix années Master A3 M1 M2", "Quels sont les frais de scolarité en années 3, 4 et 5 ?", "Combien coûte les années 3 à 5 ?","Quelle est le montant d'une année du cycle supérieur?","une année du cycle supérieur, ça coute combien?"],
+			"responses": ["Les trois années du ingénieur ont des frais de scolarité s’élevant à 8200 €/an. Au cours de l’année 2020-21, 86% des élèves de dernière année ont été exonérés des frais de scolarité puisque qu’ayant choisi d’étudier en alternance. De plus, ils sont rémunérés par l’entreprise d’accueil. De plus, les élèves de l’ISEN sont éligibles aux bourses de l’enseignement supérieur relevant du ministère de l’éducation nationale et de l’enseignement supérieur et de la recherche."],
+			"context": [""]
+		},
+		{
+			"tag": "Bourses",
+			"patterns": ["Comment puis-je payer l’école ?", "Comment puis-je payer la formation?", "Comment puis-je payer l’ISEN?", "Comment financer mes études ? ", "bourses d’ excellence","Quelles sont les bourses disponibles?","ERASMUS est-il disponible pour payer l'isen","l'accès aux bourses est-elle possible en intégrant l'isen?","L'isen dispose-t-elle de bourses d'études?","une bourse est-elle décrochable selon nos perfomances académiques?"],
+			"responses": ["Plusieurs dispositifs permettent aux étudiants de financer leurs études et ainsi de préparer leur avenir. Notamment les bourses d’excellence Yncréa Ouest / ISEN. \nLes bourses d’ excellence ISEN permettent à des étudiants boursiers à haut potentiel * d’ intégrer nos écoles. \nChaque année, 10 bourses d’ excellence sont attribuées à des étudiants de première année inscrits sur les campus de Brest, de Caen, de Nantes et de Rennes.Chaque bourse finance 50 % des frais de scolarité de l’ ensemble du cursus.\nCes bourses d’ excellence sont attribuées après examen d’ un dossier(critères sociaux et scolaires), à des étudiants de nationalité française 1 ère année(issus de Terminale générale ou technologique).\nLes dossiers de candidature sont à retourner à l’ ISEN avant le 12 mai 2021. La simulation CROUS pour 2020 / 2021 sera à joindre au dossier ainsi que les bulletins scolaires de Première et du premier trimestre de Terminale.\nLes étudiants retenus restent éligibles à toutes les autres bourses au mérite ou sur critères sociaux(CROUS).*Susceptibles d’ obtenir une mention Très Bien au baccalauréat."],
+			"context": [""]
+		},
+		{
+			"tag": "SHN",
+			"patterns": ["Sportif de Haut Niveau", "Peut-on être SHN?", "Peut-on être en Sport de Haut Niveau?", "L'isen est-elle adaptée pour les Sportifs?","L'isen est-elle adaptée pour le Sport de compétition?", "Peut-on être accompagner en tant que sportif?","Puis-je continuer mon activité sportive de haut-niveau en intégrant l'isen?","Un aménagement des horaires est-il possible si je suis sportif de haut-niveau?"],
+			"responses": ["L’ISEN Yncréa Ouest est un « établissement d’accueil sport de haut niveau ».\nCe label émis par le rectorat et la DRJSCS(Direction régionale de la jeunesse, des sports et de la cohésion sociale de Bretagne) reconnait et certifie l’ engagement et les actions menées pour l’ accueil des sportifs de haut niveau par le campus de Brest.\nLes établissements labellisés garantissent un aménagement du parcours de formation des sportifs de haut niveau afin de leur permettre de mener à bien leur double projet scolaire et sportif.En ce qui concerne le sport de manière générale, chaque jeudi après - midi, les étudiants sont théoriquement libérés afin de pratiquer des activités sportives.\nOrganisées par le Bureau des Sports de l’ école, de multiples équipes participent aux championnats universitaires en football, basket, hand, volley et rugby."],
+			"context": [""]
+		},
+		{
+			"tag": "ISEN_logement",
+			"patterns": ["Y-a-t'il un Internat?", "Quels sont les logements autour de l'école", "Quelles sont les résidences étudiantes?","Pourrais je avoir des informations sur les habitations autour?","où loger autour de l'école?","Comment trouver un logement à proximité de l'isen?","Où habiter si j'intègre l'isen?","Des conseils sur où se loger en intégrant l'ISEN?"],
+			"responses": ["De nombreuses résidences étudiantes et restaurants universitaires se trouvent à proximité du site de Brest de l’ISEN.\nLes étudiants ont crée un site« isenimmo» recensant les bons conseils pour réussir ta vie étudiante, ainsi que des annonces immobilières.Il vous est également possible de télécharger le Guide ISEN IMMO qui recense les logements et la restauration près de l’ ISEN.\nLogement à Brest.Tout autour de l’ ISEN, quatre résidences étudiantes, situées à moins de 100 mètres de l’ école, proposent des appartements en location individuelle ou en colocation.Le quartier est par ailleurs riche en propositions d’ agences immobilières ou de particuliers.A quelques pas, au centre - ville, les offres réservées aux étudiants sont également nombreuses et de qualité."],
+			"context": [""]
+		},
+		{
+			"tag": "ISEN_restauration",
+			"patterns": ["Quels sont les moyens de restauration?", "Comment puis-je manger?", "Quels sont les lieux pour manger", "Y a t'il une cafeteria?", "Puis je manger au Super u?","Comment se restaurer quand on étudie à l'isen?","l'isen possède-t-elle une cafétaria?","L'isen est-elle loin des restaurants universitaires?"],
+			"responses": ["L’ISEN se trouve en bordure du principal campus étudiant de Brest. De fait, les services dédiés aux étudiants se trouvent à proximité, à 300 m de l’école, deux restaurants universitaires accueillent les étudiants, midi et soir. De plus, un foyer, géré par les étudiants, accueille les élèves le midi et le soir et propose des plats chauds.\nPlus de renseignements sur le site du Crous Bretagne."],
+			"context": [""]
+		},
+		{
+			"tag": "visite_virtuelle_PO",
+			"patterns": ["Puis-je visiter l’isen", "Comment peut-on découvrir le bâtiment", "Quelles sont les dates de Portes ouvertes", "nous rencontrer en portes ouvertes","Peut-on visiter l'isen","peut-on découvrir l'isen lors de portes ouvertes?","y'a-t-il une possibilité de rencontrer les professeurs et visiter l'établissement?"],
+			"responses": ["Les informations de portes ouvertes changeant souvent, nous vous invitons à regarder cette page : https://isen-brest.fr/ecole-ingenieur/nous-rencontrer/. \nNous avons aussi modélisé le bâtiment et augmenté la visite virtuelle avec des vidéos de présentation réparties un peu partout!Plus d’ infos ici: https: //isen-brest.fr/vie-etudiante/campus-brest/"],
+			"context": [""]
+		},
+		{
+			"tag": "Handicap",
+			"patterns": ["L'école est-elle adaptée aux Handicaps", "Peut-on avoir un tiers temps", "A-t-on des aménagements handicaps","Peut-on y venir avec un fauteuil roulant","Le batiment est-il accessible pour les personnes à mobilité réduite","Je suis en situation de handicap, l'isen a-t-elle les capacités de me recevoir?","L'isen est-elle habilité a accueillir les étudiants ayant besoin d'aménagement spécifiques?"],
+			"responses": ["Le campus et son accès sont adaptés pour l’accueil des étudiants à mobilité réduite et cela dans l’ensemble des locaux.\nLes autres situations(handicaps visuels, auditifs, cognitifs) peuvent faire l’ objet d’ aménagements ou d’ aides spécifiques selon des modalités étudiées avec l’ étudiant(e) et sa famille.Des procédures sont prévues à cet effet, n’ hésitez pas à contacter brest @isen.fr pour plus d’ informations "],
+			"context": [""]
+		},
+		{
+			"tag": "Clubs_etudiants",
+			"patterns": ["Quels sont les clubs isen", "Quelles sont les associations étudiantes", "Peut-on en savoir plus sur la vie étudiante", "Quel est le club digitaldesign", "Quel est le club 4Ltrophy", "Quel est le club BDD", "Quel est le club BDI", "Quel est le club BDS", "Quel est le club club évasion", "BDA","Quelle est la vie étudiante au sein de l'ISEN?","L'isen possède-t-elle des associations pour développer la vie étudiante?","Qu'offre l'isen en dehors des enseignements obligatoires?"],
+			"responses": ["L’ISEN Brest encourage la prise d’initiatives de la part des étudiants au sein des clubs et associations de l’école ainsi qu’à l’extérieur. Encadrés par les enseignants du département Formation Humaine Economique et Sociale, et évalués dans le cadre de ces enseignements, les étudiants se préparent ainsi à prendre des responsabilités citoyennes, professionnelles et personnelles. Les informations sur le site de l’école vous donneront un aperçu de l’idée générale. Cependant, si vous êtes intéressés par l’un d’entre eux, nous vous conseillons de les contacter directement sur Facebook ou Instagram (les informations sur le site de l’école n’étant pas à jour)."],
+			"context": [""]
+		},
+		{
+			"tag": "La vie à Brest",
+			"patterns": ["Comment est la ville de Brest", "pourquoi venir à Brest", "Comment est la vie en finistère","Pleut-il vraiment à Brest","Quelles sont les avantages de vivre à Brest?","A quoi m'attendre de Brest?","La vie brestoise est-t-elle compliqué ou chère?"],
+			"responses": ["Brest, la ville dont les atouts sont indéniables : des loyers abordables, une vie culturelle de premier plan, un environnement riche.\nA Brest, la mer est omniprésente.Dans les conversations, dans la géographie, dans les désirs.Porte océane vers les nouveaux mondes, point de départ de grandes courses océaniques, Brest est une ville où il fait bon vivre.A Brest, comme dans le Nord, dit - on, on pleure deux fois, une fois en arrivant, une fois en partant.Rassemblant près de 25.000 étudiants chaque année, toutes filières confondues, Brest est la seconde ville étudiante bretonne derrière Rennes.Avec des attractions culturelles et sportives(centres de spectacles, musées, équipes de sport…) dignes d’ une grande métropole, entre son cœur de ville modernisé et son arrière - pays aux paysages à couper le souffle, de Crozon à Plouguerneau, de la poésie de son littoral à la majesté de ses campagnes… venir étudier à Brest c’ est s’ ouvrir vers une ville qui ne laisse pas indifférente dans une ambiance du tonnerre.La ville possède plus d’ un atout pour rendre les étudiants plus brestois qu’ ils ne l’ étaient au départ."],
+			"context": [""]
+		},
+		{
+			"tag": "Job_ISEN",
+			"patterns": ["Quelles sont les Offres d’emploi","Peut-on travailler à Yncrea", "Peut-on Travailler à l’ISEN","Peut-t-on prendre un emploi étudiant au sein de l'isen?","L'isen propose-t-elle des emplois rémunérés aux étudiants?"],
+			"responses": ["Les informations de propositions de jobs changeant souvent, nous vous invitons à regarder cette page : https://isen-brest.fr/jobs/."],
+			"context": [""]
+			}
+		]
+	}
